@@ -3,6 +3,15 @@ class Article:
         self.author = author
         self.magazine = magazine
         self.title = title
+    
+    @property
+    def title(self):
+        return self._title
+    
+    @title.setter
+    def title(self, value):
+        if isinstance(value, str) and len(value) >= 2 and len(value) <= 50 and not hasattr(self, "title"):
+            self._title = value
         
 class Author:
     def __init__(self, name):

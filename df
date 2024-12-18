@@ -1,0 +1,53 @@
+[33mcommit 5b925c88b19912780a7f05a0825297ae85cba8eb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Stuart Forrester <stforrester@gmail.com>
+Date:   Wed Dec 18 13:27:08 2024 -0600
+
+    completes author and magazine initializers and properties
+
+[33mcommit 39628dc3f1ce1a999b31087a1aaf4c512a6bc583[m
+Author: Stuart Forrester <stforrester@gmail.com>
+Date:   Wed Dec 18 12:52:31 2024 -0600
+
+    completes erd
+
+[33mcommit db3b857cbecc2b9302ad703a37b9e53194e501f8[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Alvee Akand <9080771+AlveeM@users.noreply.github.com>
+Date:   Fri Mar 8 01:40:34 2024 -0500
+
+    updated instructions
+
+[33mcommit 67dff381324874c8033f2b25f5a20117a5456318[m
+Author: Alvee Akand <9080771+AlveeM@users.noreply.github.com>
+Date:   Thu Jan 25 10:41:40 2024 -0500
+
+    updated title
+
+[33mcommit 7f2e6ee15812f1aa15986c1c70e7c5dff15c5c17[m
+Author: Alvee Akand <9080771+AlveeM@users.noreply.github.com>
+Date:   Thu Jan 25 10:40:22 2024 -0500
+
+    added github workflow
+
+[33mcommit 5584753f1165b580fb0c240703914aa36fa9fd60[m
+Author: Alvee Akand <9080771+AlveeM@users.noreply.github.com>
+Date:   Thu Jan 25 10:39:07 2024 -0500
+
+    updated title
+
+[33mcommit b4c517344e9635079939a154d44803155ceff9ff[m
+Author: Alvee Akand <9080771+AlveeM@users.noreply.github.com>
+Date:   Thu Jan 25 10:34:00 2024 -0500
+
+    update title
+
+[33mcommit c661484d77116a07d85e1dfc2859214da48fdbae[m
+Author: Alvee Akand <9080771+AlveeM@users.noreply.github.com>
+Date:   Tue Jan 23 15:44:13 2024 -0500
+
+    added canvas config
+
+[33mcommit 87b922b8adffc30bf3822f987e6d1fc1010c4149[m
+Author: Alvee Akand <9080771+AlveeM@users.noreply.github.com>
+Date:   Tue Jan 23 15:35:11 2024 -0500
+
+    init
