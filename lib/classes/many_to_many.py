@@ -105,7 +105,7 @@ class Magazine:
             author_count[article.author] += 1
         for author, count in author_count.items():
             if count > 2:
-                contrib_authors[author]
+                contrib_authors.append(author)
         if contrib_authors != []:
             return contrib_authors
         else:
