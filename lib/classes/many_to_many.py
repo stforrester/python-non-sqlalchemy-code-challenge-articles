@@ -10,7 +10,7 @@ class Article:
     
     @title.setter
     def title(self, value):
-        if isinstance(value, str) and len(value) >= 2 and len(value) <= 50 and not hasattr(self, "title"):
+        if isinstance(value, str) and 2 <= len(value) <= 50 and not hasattr(self, "title"):
             self._title = value
         
 class Author:
@@ -49,7 +49,7 @@ class Magazine:
     
     @name.setter
     def name(self, value):
-        if isinstance(value, str) and len(value) >= 2 and len(value) <= 16:
+        if isinstance(value, str) and 2 <= len(value) <= 16:
             self._name = value
     
     @property
