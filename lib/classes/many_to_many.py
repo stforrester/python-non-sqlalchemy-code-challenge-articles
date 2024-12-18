@@ -52,7 +52,7 @@ class Author:
         return [article for article in Article.all if article.author == self]
 
     def magazines(self): # demonstrates many-to-many
-        return list({[article.magazine for article in self.articles()]})
+        return list(set([article.magazine for article in self.articles()]))
 
     def add_article(self, magazine, title):
         pass
@@ -87,7 +87,7 @@ class Magazine:
         return [article for article in Article.all if article.magazine == self]
 
     def contributors(self): # demonstrates many-to-many
-        return list({[article.author for article in self.articles()]})
+        return list(set([article.author for article in self.articles()]))
 
     def article_titles(self):
         pass
