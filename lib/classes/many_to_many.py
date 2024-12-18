@@ -93,7 +93,21 @@ class Magazine:
         return list(set([article.author for article in self.articles()]))
 
     def article_titles(self):
-        pass
+        if self.articles() != []:
+            return [article.title for article in self.articles()]
+        else:
+            return None
 
     def contributing_authors(self):
-        pass
+        author_count = {}
+        contrib_authors = []
+        for article in self.articles():
+            author_count[article.author] += 1
+        for author, count in author_count.items():
+            if count > 2:
+                contrib_authors[author]
+        if contrib_authors != []:
+            return contrib_authors
+        else:
+            return None
+        
