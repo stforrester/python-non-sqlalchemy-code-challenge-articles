@@ -55,10 +55,13 @@ class Author:
         return list(set([article.magazine for article in self.articles()]))
 
     def add_article(self, magazine, title):
-        pass
+        return Article(self, magazine, title)
 
     def topic_areas(self):
-        pass
+        if self.articles() != []:
+            return list(set([article.magazine.category for article in self.articles()]))
+        else:
+            return None
 
 class Magazine:
     def __init__(self, name, category):
